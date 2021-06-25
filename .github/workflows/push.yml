@@ -26,5 +26,5 @@ jobs:
           push: true
           cache-from: type=registry,ref=4nzelo/githubactions-ci-cd:latest
           cache-to: type=inline
-          tags: 4nzelo/githubactions-CI-CD:latest
+          tags: 4nzelo/githubactions-ci-cd:latest
           build-args: PROFILE=nectar,ARG2=test
