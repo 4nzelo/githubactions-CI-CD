@@ -24,7 +24,7 @@ jobs:
           file: ./Dockerfile
           pull: true
           push: true
-          cache-from: type=registry,ref=4nzelo/githubactions-CI-CD:latest
+          cache-from: type=registry,ref=4nzelo/githubactions-ci-cd:latest
           cache-to: type=inline
           tags: 4nzelo/githubactions-CI-CD:latest
           build-args: PROFILE=nectar,ARG2=test
